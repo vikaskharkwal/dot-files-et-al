@@ -1,0 +1,9 @@
+[user]
+	name = Vikas Kharkwal
+	email = kharkwalvikas@gmail.com
+[color]
+	ui = auto
+[init]
+	defaultBranch = main
+[core]
+	autocrlf = false
