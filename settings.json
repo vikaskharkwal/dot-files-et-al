@@ -32,15 +32,15 @@
             "keys": "ctrl+shift+f"
         }
     ],
-    "alwaysShowNotificationIcon": true,
+    "alwaysShowNotificationIcon": false,
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "experimental.rendering.forceFullRepaint": true,
-    "initialCols": 140,
-    "initialRows": 35,
+    "initialCols": 135,
+    "initialRows": 30,
     "launchMode": "default",
-    "minimizeToNotificationArea": true,
+    "minimizeToNotificationArea": false,
     "profiles": 
     {
         "defaults": 
@@ -48,36 +48,28 @@
             "antialiasingMode": "cleartype",
             "backgroundImageOpacity": 0.41,
             "backgroundImageStretchMode": "fill",
+            "colorScheme": "OneDark",
             "cursorShape": "filledBox",
             "experimental.retroTerminalEffect": false,
             "font": 
             {
                 "face": "JetBrainsMono NF",
-                "size": 13.0,
+                "size": 10.0,
                 "weight": "normal"
             },
             "intenseTextStyle": "all",
-            "opacity": 50,
-            "padding": "10",
-            "scrollbarState": "visible",
-            "useAcrylic": true,
+            "opacity": 100,
+            "padding": "0",
+            "scrollbarState": "hidden",
+            "useAcrylic": false,
             "useAtlasEngine": true
         },
         "list": 
         [
             {
-                "backgroundImage": null,
                 "backgroundImageOpacity": 0.12,
                 "backgroundImageStretchMode": "uniformToFill",
-                "colorScheme": "Dracula",
                 "commandline": "pwsh.exe -NoLogo",
-                "experimental.retroTerminalEffect": false,
-                "font": 
-                {
-                    "face": "JetBrainsMono NF",
-                    "size": 12.0,
-                    "weight": "normal"
-                },
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
                 "name": "PowerShell",
@@ -427,6 +419,29 @@
             "yellow": "#C18301"
         },
         {
+            "background": "#1E2127",
+            "black": "#1E2127",
+            "blue": "#61AFEF",
+            "brightBlack": "#5C6370",
+            "brightBlue": "#61AFEF",
+            "brightCyan": "#56B6C2",
+            "brightGreen": "#98C379",
+            "brightPurple": "#C678DD",
+            "brightRed": "#E06C75",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#D19A66",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#56B6C2",
+            "foreground": "#ABB2BF",
+            "green": "#98C379",
+            "name": "OneDark",
+            "purple": "#C678DD",
+            "red": "#E06C75",
+            "selectionBackground": "#FFFFFF",
+            "white": "#ABB2BF",
+            "yellow": "#D19A66"
+        },
+        {
             "background": "#002B36",
             "black": "#002B36",
             "blue": "#268BD2",
@@ -540,6 +555,52 @@
             "selectionBackground": "#FFFFFF",
             "white": "#787C99",
             "yellow": "#E0AF68"
+        },
+        {
+            "background": "#1D1F21",
+            "black": "#000000",
+            "blue": "#81A2BE",
+            "brightBlack": "#808080",
+            "brightBlue": "#81A2BE",
+            "brightCyan": "#8ABEB7",
+            "brightGreen": "#B5BD68",
+            "brightPurple": "#B294BB",
+            "brightRed": "#CC6666",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#F0C674",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#8ABEB7",
+            "foreground": "#C5C8C6",
+            "green": "#B5BD68",
+            "name": "Tomorrow Night",
+            "purple": "#B294BB",
+            "red": "#CC6666",
+            "selectionBackground": "#C5C8C6",
+            "white": "#FFFFFF",
+            "yellow": "#F0C674"
+        },
+        {
+            "background": "#21252B",
+            "black": "#21252B",
+            "blue": "#61AFEF",
+            "brightBlack": "#5F6672",
+            "brightBlue": "#007FFF",
+            "brightCyan": "#08E8DE",
+            "brightGreen": "#66FF00",
+            "brightPurple": "#8B00FF",
+            "brightRed": "#D74E42",
+            "brightWhite": "#D4D7D9",
+            "brightYellow": "#E5C07B",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#56B6C2",
+            "foreground": "#A9B2C3",
+            "green": "#98C379",
+            "name": "VS Code",
+            "purple": "#B57EDC",
+            "red": "#E06C75",
+            "selectionBackground": "#FFFFFF",
+            "white": "#A9B2C3",
+            "yellow": "#D19A66"
         },
         {
             "background": "#000000",

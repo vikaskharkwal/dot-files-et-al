@@ -8,8 +8,14 @@ M.treesitter = {
     "css",
     "javascript",
     "c",
-    "typescript",
     "markdown",
+    "markdown_inline",
+  },
+  indent = {
+    enable = true,
+    -- disable = {
+    --   "python"
+    -- },
   },
 }
 
@@ -24,7 +30,14 @@ M.mason = {
     "html-lsp",
     "typescript-language-server",
     "deno",
+    "prettier",
+    -- other
+    "markdownlint",
   },
+  ui = {
+    height = 0.7,
+    border = 'single',
+  }
 }
 
 -- git support in nvimtree
@@ -49,27 +62,16 @@ M.nvterm = {
     type_opts = {
       float = {
         relative = "editor",
-        row = 0.3,
-        col = 0.25,
-        width = 0.5,
-        height = 0.4,
+        row = 0.1,
+        col = 0.2,
+        width = 0.6,
+        height = 0.7,
         border = "single",
       },
-      horizontal = { location = "rightbelow", split_ratio = 0.3, border = "single",  },
-      vertical = { location = "rightbelow", split_ratio = 0.5, border = "single", },
+      horizontal = { location = "rightbelow", split_ratio = 0.4, border = "single",  },
+      vertical = { location = "rightbelow", split_ratio = 0.3, border = "single", },
     },
   },
-  terminals = {
-
- type_opts = {
-      horizontal = { location = "rightbelow", split_ratio = 0.3 },
-      vertical = { location = "rightbelow", split_ratio = 0.3 },
-    },
-  }
-}
-
-M.whichkey = {
-  disable = false,
 }
 
 return M

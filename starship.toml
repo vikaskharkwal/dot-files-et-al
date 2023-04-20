@@ -29,7 +29,7 @@ disabled = true
 # Third param
 [directory]
 style = "bright-purple bold"
-format = "[$path]($style)[$read_only]($read_only_style) "
+format = " [$path]($style)[$read_only]($read_only_style) "
 truncation_length = 3
 truncate_to_repo = false
 truncation_symbol = "../"
@@ -98,7 +98,7 @@ error_symbol = " [×](bold red)"
 
 # SYMBOLS
 [status]
-format = "[$symbol$status]($style) "
+# format = "[$symbol$status]($style) "
 symbol = "[]"
 not_executable_symbol = "[](bold red)"
 sigint_symbol = "[ﳼ](bold red)"
