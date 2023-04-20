@@ -9,9 +9,9 @@ format = " [$user]($style)@"
 # format = " "
 style_user = "bold bright-blue"
 style_root = "bold bright-red"
-show_always = true
+show_always = false
 # show_always = false
-disabled = true
+disabled = false
 
 
 
@@ -21,9 +21,9 @@ format = "[$hostname]($style) in "
 style = "bold bright-blue"
 trim_at = "-"
 # ssh_only = true
-ssh_only = false
+ssh_only = true
 # disabled = false
-disabled = true
+disabled = false
 
 
 # Third param
@@ -36,7 +36,7 @@ truncation_symbol = "../"
 read_only = ""
 read_only_style = "bold red"
 repo_root_style = "bold yellow"
-repo_root_format = "[repo:]($style)[$repo_root]($repo_root_style)[$path]($style)[$read_only]($read_only_style) "
+repo_root_format = " [repo:]($style)[$repo_root]($repo_root_style)[$path]($style)[$read_only]($read_only_style) "
 
 # Before all the version info (python, nodejs, php, etc.)
 
