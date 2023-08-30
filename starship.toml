@@ -98,16 +98,21 @@ error_symbol = " [×](bold red)"
 
 # SYMBOLS
 [status]
-# format = "[$symbol$status]($style) "
+format = " [$symbol$status]($style) "
+style = "bold red"
 symbol = " []"
-not_executable_symbol = " [](bold red)"
-sigint_symbol = " [ﳼ](bold red)"
-not_found_symbol = " [](bold red)"
-pipestatus = true
-pipestatus_separator = "|"
-map_symbol = true
-pipestatus_format = ' \[$pipestatus\] => [$symbol$common_meaning$signal_name$maybe_int]($style)'
-disabled = false
+# not_executable_symbol = " [](bold red)"
+# sigint_symbol = " [ﳼ](bold red)"
+# not_found_symbol = " [](bold red)"
+not_executable_symbol = " []"
+sigint_symbol = " [ﳼ]"
+not_found_symbol = " []"
+# pipestatus = true
+# pipestatus_separator = "|"
+# map_symbol = true
+# disabled = false
+disabled = true
+
 
 [aws]
 symbol = " "

@@ -6,6 +6,11 @@ M.treesitter = {
     "lua",
     "html",
     "css",
+    "scss",
+    "regex",
+    "graphql",
+    "typescript",
+    "svelte",
     "javascript",
     "c",
     "markdown",
@@ -31,8 +36,15 @@ M.mason = {
     "typescript-language-server",
     "deno",
     "prettier",
+    "eslint-lsp",
+    "json-lsp",
+    "svelte-language-server",
+    "tailwindcss-language-server",    
+    "cssmodules-language-server",
     -- other
     "markdownlint",
+    "marksman",
+
   },
   ui = {
     height = 0.7,
