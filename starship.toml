@@ -1,16 +1,16 @@
-add_newline = true
+add_newline = false #true
 
 [line_break]
-disabled = false
-## FIRST LINE/ROW: Info & Status
+disabled = false #false
+# FIRST LINE/ROW: Info & Status
 # First param ─┌
 [username]
-format = " [$user]($style)@"
+format = "[$user]($style)@"
 # format = " "
 style_user = "bold bright-blue"
 style_root = "bold bright-red"
-show_always = false
 # show_always = false
+show_always = true
 disabled = false
 
 
@@ -19,9 +19,9 @@ disabled = false
 [hostname]
 format = "[$hostname]($style) in "
 style = "bold bright-blue"
-trim_at = "-"
+# trim_at = "-"
 # ssh_only = true
-ssh_only = true
+ssh_only = false
 # disabled = false
 disabled = false
 
@@ -29,14 +29,14 @@ disabled = false
 # Third param
 [directory]
 style = "bright-purple bold"
-format = " [$path]($style)[$read_only]($read_only_style) "
+format = "[$read_only]($read_only_style)[$path]($style) "
 truncation_length = 3
 truncate_to_repo = false
 truncation_symbol = "../"
 read_only = ""
 read_only_style = "bold red"
 repo_root_style = "bold yellow"
-repo_root_format = " [repo:]($style)[$repo_root]($repo_root_style)[$path]($style)[$read_only]($read_only_style) "
+repo_root_format = "[repo:]($style)[$repo_root]($repo_root_style)[$path]($style)[$read_only]($read_only_style) "
 
 # Before all the version info (python, nodejs, php, etc.)
 
@@ -91,7 +91,7 @@ disabled = true
 # Prompt: param 2 └─
 [character]
 # success_symbol = ''' [\(￢‿￢\) ](bold green)'''
-success_symbol = ''' [→ ](bold green)'''
+success_symbol = '''[→ ](bold green)'''
 # success_symbol = ''' [\( ´-ω･\)︻┻┳══━一](bold green)'''
 # error_symbol = ''' [\(╯°□°\)╯︵ ┻━┻ ](bold red)'''
 error_symbol = " [×](bold red)"
