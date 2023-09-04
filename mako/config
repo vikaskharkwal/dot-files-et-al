@@ -1,0 +1,15 @@
+font=JetBrainsMonoNerdFont 12
+padding=15
+border-size=3
+outer-margin=6,6,0,0
+default-timeout=5000
+
+# Colors
+background-color=#1e1e2e
+text-color=#cdd6f4
+border-color=#b4befe
+progress-color=over #313244
+
+[urgency=high]
+border-color=#f38ba8
+
